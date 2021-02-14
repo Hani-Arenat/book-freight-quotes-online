@@ -1,0 +1,52 @@
+.body-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.select-container {
+  width: 20%;
+  margin: 10px;
+  max-width: 200px;
+}
+.select-container > p {
+  margin: 0;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.select-container > .select-date {
+  height: 36px;
+  width: 100%;
+  padding: 0px 5px;
+  margin: 5px 0px;
+}
+.select {
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  outline: 0;
+  padding: 5px;
+  margin: 5px 0px;
+}
+.btn-submit{
+  width: 20%;
+  max-width: 200px;
+  background-color: #2196f3;
+  border-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 40px;
+  margin: 20px 20px 0px 20px;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+}
